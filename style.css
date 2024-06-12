@@ -9,8 +9,16 @@ img {
   height: auto;
 }
 
+/* WEBSITE LAYOUT */
 .flex-item {
   flex: 25%;
   /* flex-basis: 25%; */
   /* flex-direction: column; */
+}
+
+/* TABLET LAYOUT */
+@media(max-width: 770px) {
+  .flex-item {
+    flex: 50%;
+  }
 }
