@@ -22,3 +22,10 @@ img {
     flex: 50%;
   }
 }
+
+/* MOBILE LAYOUT */
+@media(max-width: 600px) {
+  .flex-item {
+    flex: 100%;
+  }
+}
