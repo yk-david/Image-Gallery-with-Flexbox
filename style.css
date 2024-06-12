@@ -1,0 +1,32 @@
+
+/* Flex-Container Properties */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Flex-item Properties - Web Layout */ 
+.flex-item {
+    flex: 25%;  
+}
+
+/* Two Image Layout - Tablet Layout */
+@media (max-width: 800px) {
+    .flex-item {
+      flex: 50%;         
+    }
+} 
+
+/* Single Image Layout - Mobile Layout */
+@media (max-width: 600px){
+    .flex-item {
+        flex: 100%;
+    }
+}
+
