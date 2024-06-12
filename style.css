@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-item {
+  flex: 25%;
+  /* flex-basis: 25%; */
+  /* flex-direction: column; */
+}
