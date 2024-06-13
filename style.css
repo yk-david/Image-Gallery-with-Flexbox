@@ -24,7 +24,7 @@ img {
 }
 
 /* MOBILE LAYOUT */
-@media(max-width: 430px) {
+@media(max-width: 500px) {
   .flex-item {
     flex: 100%;
   }
